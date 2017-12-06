@@ -1,0 +1,73 @@
+
+vi /etc/profile
+export JAVA_HOME=/usr/java/jdk1.7.0_79
+export PATH=$JAVA_HOME/bin:$PATH 
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+vi /etc/profile
+source /etc/profile
+
+cp apache-tomcat-7.0.63.rar /opt/local
+
+
+Linux环境下安装RAR文件压缩与解压及命令应用方法
+http://www.itbulu.com/linux-rar.html
+wget http://soft.itbulu.com/php/rarlinux-x64-5.4.b2.tar.gz
+tar -zxvf rarlinux-x64-5.4.b2.tar.gz
+cd rar
+make
+
+
+unrar x apache-tomcat-7.0.63.rar  
+
+
+chmod +x startup.sh
+chmod +x *.sh
+
+
+scp -r /opt/local/tomcat root@47.93.113.31:/opt/local/tomcat
+
+scp -r /soft/jdk-7u79-linux-x64.rpm  root@47.93.113.31:/soft/jdk-7u79-linux-x64.rpm
+
+
+yum -y install lrzsz 
+
+
+chmod +x jdk-7u79-linux-x64.rpm
+
+
+rpm -ivh jdk-7u79-linux-x64.rpm
+
+
+echo $JAVA_HOME
+
+
+dubbo.registry.address=zookeeper://10.30.46.133:2181?backup=10.80.236.82:2181,10.31.147.180:2181
+
+
+1. 现有现状
+  a. 架构性能
+  b. 上线维护度
+  c. 开发维护难度
+  d. 
+
+2. RPC架构
+  a. 统一调度负载zookeeper
+  b. 上线单个service维护
+  c. 开发单个service维护
+  d. 分库分表打下基础
+  e. 人员分工
+3. 量化和实施计划
+  a. service统计293个
+  b. 
+
+4. 职责
+  a. 代码规范
+  b. 架构调整
+  c. 分库分表
+  d. 数据库连接池druid
+
+
+
+
+
