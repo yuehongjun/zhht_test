@@ -6,11 +6,8 @@ public class Test {
 		// TODO Auto-generated constructor stub
 	}
 /**
-* 主函数使用调用
-* 33333
-  测试 merge冲突解决方法
-*33333
-/*99999999 merge
+* 99999
+  888主函数使用调用
 */
 //test merge 
     public static void main(String[] args) {
