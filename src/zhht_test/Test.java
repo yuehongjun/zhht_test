@@ -7,14 +7,7 @@ public class Test {
 	}
 /**
 * 主函数使用调用
-*33333
-zhuyao master
-/*99999999 merge
-* 99999
-  ppppppp`
-  888主函数使用调用
 */
-//test merge 
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
