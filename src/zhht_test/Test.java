@@ -8,6 +8,8 @@ public class Test {
 /**
   dev0827
 * 主函数使用调用
+* eclipse添加数据
+* 发动机开始
 */
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,4 +22,8 @@ public class Test {
 
 	}
 
+    /**
+     * ceshi
+     */
+    void test(){}
 }
