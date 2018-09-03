@@ -6,9 +6,9 @@ public class Test {
 		// TODO Auto-generated constructor stub
 	}
 /**
-  dev0827
+ * dev0827
 * 主函数使用调用
-嗯哼
+*嗯哼
 */
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,8 +21,7 @@ public class Test {
 
 	}
 
-}
-
-public String getStr(){
-	return "zhongguo";
+	public String getStr(){
+		return "zhongguo";
+	}
 }
