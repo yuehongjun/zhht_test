@@ -8,6 +8,7 @@ public class Test {
 /**
   dev0827
 * 主函数使用调用
+嗯哼
 */
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
